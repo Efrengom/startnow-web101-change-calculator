@@ -1,0 +1,56 @@
+
+
+.header {
+    color: rgb(165, 35, 35);
+    text-align: center
+}
+
+.input {
+    padding-left: 37em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: double;
+    border-width: 10px;
+    border-color: firebrick;
+}
+
+.section-two {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.coins{
+    display:flex;
+}
+
+p {
+    padding-left: 30px;
+    display: inline-flex;
+    flex-basis: 20%;
+}
+.output{
+    display:flex;
+    margin-top: 15px;
+}
+#output{
+    flex-direction: column;
+    border-style: double;
+    border-width: 10px;
+    border-spacing: 15px;
+    border-color: firebrick;
+    margin-top: 15px;
+}
+
+p {
+    padding-left: 30px;
+    display: inline-flex;
+    flex-basis: 20%;
+}
+
+#calculate-button{
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: aliceblue;  
+    height: 20px;
+    width: 70px;
+}
